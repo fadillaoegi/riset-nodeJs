@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "name": "Shofa Nabila Alifah",
+      "age": 24,
+      "email": "example@gmail.com"
+    },
+    {
+      "name": "Fadil",
+      "age": 22,
+      "email": "fdl@gmail.com"
+    },
+    {
+      "name": "Laoegi",
+      "age": 21,
+      "email": "ss@gmail.com"
+    },
+    {
+      "name": "Uci Nurcahyani Saranani",
+      "age": 23,
+      "email": "uci@gmail.com"
+    }
+  ]
+}

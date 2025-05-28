@@ -1,5 +1,6 @@
 const rl = require("readline");
 const fs = require("fs");
+const { saveContact } = require("./contacts");
 
 const input = rl.createInterface({
   input: process.stdin,
@@ -34,6 +35,10 @@ const saveContact = (name, age, email) => {
   const dataUser = [];
   const dataBuffer = fs.readFileSync("data/dataUser.json", "utf8");
   const dataJson = JSON.parse(dataBuffer);
+
+  // NOTE: Checking if data already exist
+  // const is
+
   dataJson.users.push({
     name: name.trim(),
     age: parseInt(age.trim(), 10),
