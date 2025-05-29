@@ -1,13 +1,6 @@
 // const rl = require("readline");
 const fs = require("fs")
 
-const input = rl.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-})
-
-
-
 const saveContact = (name, age, email) => {
   const fileName = "dataUser"
   const dirPath = "./data"

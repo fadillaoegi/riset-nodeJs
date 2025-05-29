@@ -38,8 +38,25 @@ yargs
   .demandCommand()
 
 // NOTE: List data
+yargs
+  .command({
+    command: "list",
+    describe: "List all contacts",
+    builder: {},
+    handler: () => {},
+  })
+  .demandCommand()
 
 // NOTE: List detail data
+yargs
+  .command({
+    command: "detail",
+    describe: "Detail contact",
+    builder: {},
+    handler: () => {},
+  })
+  .demandCommand()
+
 // NOTE: Delete data
 
 // NOTE: execute
