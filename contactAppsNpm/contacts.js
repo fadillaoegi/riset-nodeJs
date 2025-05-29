@@ -6,13 +6,7 @@ const input = rl.createInterface({
   output: process.stdout,
 })
 
-const question = (x) => {
-  return new Promise((resolve, reject) => {
-    input.question(`Enter your ${x}: `, (x) => {
-      resolve(x.trim())
-    })
-  })
-}
+
 
 const saveContact = (name, age, email) => {
   const fileName = "dataUser"
@@ -48,6 +42,5 @@ const saveContact = (name, age, email) => {
 }
 
 module.exports = {
-  question,
   saveContact,
 }
